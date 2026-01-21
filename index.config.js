@@ -38,6 +38,9 @@ var index_config_default = {
   y115: {
     cookie: ""
   },
+  baidu: {
+    cookie: ""
+  },
   muou: {
     url: ""
   },
@@ -62,16 +65,13 @@ var index_config_default = {
   },
   danmu: {
     urls: [{ address: "https://danmuapi-ten-iota.vercel.app", name: "默认服务器" }],
-    autoPush: false
+    autoPush: true
   },
   t4: {
     list: []
   },
   cms: {
-    list: [
-      // {"name": "非凡资源", "address": "http://ffzy.tv/api.php/provide/vod/from/ffm3u8/at/json/"},
-      // {"name": "麻豆视频", "address": "https://19q.cc/api.php/provide/vod"}
-    ]
+    list: []
   },
   alist: [
     {
